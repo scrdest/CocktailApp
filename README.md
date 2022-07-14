@@ -11,4 +11,8 @@ For example:
 `python -m cocktailapp vodka,apple juice,light rum,dark rum,orange juice,whisky`
 
 Prints:
-`Feasible cocktails: ['155 Belmont', 'Rum Screwdriver', 'Screwdriver']`
+```
+155 Belmont
+Rum Screwdriver
+Screwdriver
+```

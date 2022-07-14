@@ -17,8 +17,10 @@ def execute(**app_args):
             if ingredient_match.check_ingredient_match(available_ingredients, tuple(cocktail_ingrs)):
                 cocktails.add(cocktail_name)
 
+    for cocktail in cocktails:
+        print(cocktail)
+
     cocktails_as_list = list(cocktails)
-    print(f"Feasible cocktails: {cocktails_as_list}")
     return cocktails_as_list
 
 
