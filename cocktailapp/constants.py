@@ -1,0 +1,11 @@
+ARG_INGREDIENTS = "ingredients"
+
+ENV_API_KEY = "ApiKey"
+
+VAL_DEFAULT_API_KEY = "1"
+VAL_COCKTAILAPI_BASE_URL = "https://www.thecocktaildb.com"
+VAL_COCKTAILAPI_URL_API_SUFFIX = "/api/json/v1"
+
+KEY_APIRESPONSE_DRINKS = "drinks"
+KEY_APIRESPONSE_DRINK_ID = "idDrink"
+KEY_APIRESPONSE_DRINK_NAME = "strDrink"
